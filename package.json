@@ -9,7 +9,7 @@
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
     "dev": "vitepress dev docs",
-    "build": "vitepress build docs && move docs/.vitepress/dist ."
+    "build": "vitepress build docs && deploy.bat"
   },
   "keywords": [],
   "author": "",
