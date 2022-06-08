@@ -17,7 +17,7 @@
 
 3. git checkout gh-pages
 
-4. git rebase main
+4. git merge main
 
 5. pnpm docs:build
 
