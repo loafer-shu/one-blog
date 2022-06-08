@@ -1,12 +1,4 @@
 
-: build
-pnpm docs:build
+cd docs/.vitepress
 
-cd docs/.vitepress/dist
-
-git add -A
-git commit -m 'deploy'
-
-git push -f git@github.com:loafer-shu/one-blog.git main:gh-pages
-
-cd -
+move dist ../..
